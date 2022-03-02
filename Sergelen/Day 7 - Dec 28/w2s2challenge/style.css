@@ -1,0 +1,16 @@
+/* Complete the challenge by writing CSS below */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.item{
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+.item-1{
+    flex-grow: 3;
+}
