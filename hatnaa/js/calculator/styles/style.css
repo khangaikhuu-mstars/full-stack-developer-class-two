@@ -1,0 +1,41 @@
+.calc{
+    width: 30%;
+    margin: 50px auto;
+    height: 500px;
+}
+.btn{
+    /* height: 100px; */
+    border: 1px solid black;
+    width: calc(100%/4);
+    /* padding: 40px; */
+    background-color: white;
+}
+/* .col-3{
+    margin: none;
+} */
+
+#equal{
+    width: 100px;
+}
+.equal1{
+    width: 50%;
+}
+.numpad{
+    display: flex;
+}
+.numpad input{
+    width: 100%;
+}
+.row
+{
+    display: flex;
+}
+#result {
+    border: 1px solid black;
+    width: 380px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: -10px;
+    
+}
