@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+
+  <input type="text" id="a" />
+
+  <button onclick="bodlogo1()">DARLDAA</button>
+  <p id="text"></p>
+
+  <script>
+    function bodlogo1() {
+      const ones = new Array(
+        "zero",
+        "One",
+        "Two",
+        "Three",
+        "Four",
+        "Five",
+        "Six",
+        "Eight",
+        "Nine"
+      );
+
+      var a = parseInt(document.getElementById("a").value);
+      var b;
+      var c;
+      b = parseInt(a / 100);
+      c = a % 10;
+      var d = ((a % 100) - c) / 10;
+      console.log(d);
+      console.log(c);
+
+      document.getElementById("text").innerHTML =
+        ones[b] + " " + ones[d] + " " + ones[c];
+
+      if (a > 10 && a < 100) {
+        document.getElementById("text").innerHTML = ones[d] + " " + ones[c];
+      } else if (a > 100 && a < 1000) {
+        document.getElementById("text").innerHTML =
+          ones[b] + " " + ones[d] + " " + ones[c];
+      } else if (a < 10) {
+        document.getElementById("text").innerHTML = ones[c];
+      }
+    }
+  </script>
+</html>
