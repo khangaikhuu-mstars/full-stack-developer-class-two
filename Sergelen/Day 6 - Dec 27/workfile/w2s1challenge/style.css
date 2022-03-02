@@ -1,0 +1,8 @@
+/* Challenge style goes here */
+.main-heading{
+    text-shadow: 0 0 5px red;
+}
+.title{
+    text-shadow: 1px 3px 0 #e59740,
+                  3px -10px 5px green;
+}
