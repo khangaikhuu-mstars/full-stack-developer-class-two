@@ -1,0 +1,48 @@
+#Ner{
+    background-color: cornsilk;
+}
+
+h1 {
+    color: blue;
+
+}
+body {
+     background-color: rgb(95, 160, 100);
+     max-width: 800px;
+     margin-left: auto;
+     margin-right: auto;
+     
+}
+
+main{
+    height: 200vh;
+}
+
+#experience{color:chocolate
+}
+
+.Card{
+    background-color: yellow;
+}
+
+#Tugsgul{
+    background-color: whitesmoke;
+}
+.Urd{
+    margin-top: 100px;
+    border: 1px solid red;
+    position: relative;
+    width:30%;
+    display: inline-block;
+    position: sticky;
+    top: 0;
+    
+}
+.Hoid{
+    margin-top: 100px;
+    width:60%;
+    border: 1px solid yellow;
+    position: relative;
+    display: inline-block;
+}
+
