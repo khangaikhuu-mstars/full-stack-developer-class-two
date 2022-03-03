@@ -35,6 +35,8 @@ function tellFortune(children, wifeName, geographicLocation, jobTitle) {
 }
 tellFortune(2, "Dulamkhand", "Ulaanbaatar", "Ceo");
 
+let hariu = calculateDogAge(6);
+
 // Puppy age
 
 function calculateDogAge(age) {
@@ -42,6 +44,15 @@ function calculateDogAge(age) {
   return dogAge;
 }
 
-let hariu = calculateDogAge(6);
-
 console.log("Your doggie is " + hariu + " years old in dog years");
+
+//function declaration
+
+const addDeclaration = (x, y) => {
+  let z = x + y;
+  let w = x * y;
+  let a = z / w;
+  return a;
+};
+
+console.log(addDeclaration(2, 5));
