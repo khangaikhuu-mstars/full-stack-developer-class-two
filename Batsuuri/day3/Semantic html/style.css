@@ -1,0 +1,40 @@
+address{
+    background-color: burlywood;
+    border: coral;
+}
+
+#medee{
+    background-color: cornflowerblue;
+}
+section{
+    background-color: lightgreen;
+}
+#golzuil{
+    color: darkblue;
+
+}
+    
+
+.news{
+    background-color: lightpink;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightseagreen;
+}
+.top{
+    color: blue;
+    border: brown;
+    font-size: 25px;
+    background-color: cornflowerblue;
+
+}
+header{
+    background-color: cyan;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkorchid;
+    padding: 24px;
+    border: darksalmon;
+}

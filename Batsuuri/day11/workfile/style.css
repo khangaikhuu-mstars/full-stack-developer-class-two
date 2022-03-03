@@ -1,0 +1,147 @@
+.card-img-top{
+    border-radius: 10px;
+}
+.carousel-inner{
+    background-color: grey;
+    margin-bottom: 30px;
+}
+.col h2{
+    font-size: 1.5rem;
+}
+.service{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px grey;
+    padding: 30px 80px;
+    justify-content: space-around;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.Price{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.title-menu{
+    border-left: 10px solid orange;
+    padding: 0 15px;
+}
+.card-title{
+    padding: 10px 0;
+}
+.btn{
+    background-color: orange;
+}
+.service .row .col-4 h2{
+    font-size: 18px;
+}
+.service .row .col-4 p{
+    font-size: 14px;
+}
+.col-4{
+    display: flex;
+}
+.btn{
+    border: solid orange;
+}
+.fast-head{
+    margin: 0 40px;
+}
+.fast-head h2{
+    font-size: 1.5rem;
+}
+.footer-heading{
+    display: flex;
+    margin: 40px 0;
+    padding: 40px 0;
+    text-decoration: none;
+}
+.footer{
+    background-color: rgb(255, 102, 0);
+    color: white;
+    margin: 100px 0;
+}
+.footer-service{
+    text-decoration: none;
+}
+
+.banner{
+    background-color: orange;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 100px;
+    height: 50px;
+    border-radius: 0px 10px 0px 30px ;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.card{
+    overflow: hidden;
+    position: relative;
+}
+.card-hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.card:hover .card-hover{
+    display: flex;
+}
+.card .card-hover .card-hover-text{
+    color: white;
+    font-size: 1.125rem;
+    text-decoration: none;
+}
+
+.modal-dialog {
+    max-width: 60%;
+}
+.modal-body .row .col{
+    display: flex;
+    justify-content: space-between;
+}
+
+.food-price{
+    font-size: 1.5rem;
+    color: orange;
+}
+.col-discription-text{
+    font-size: 1.5rem;
+    padding: 20px;
+}
+.col-discription-input{
+    width: 100%;
+    background-color: rgb(201, 201, 200);
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: 0;
+}
+.food-portion{
+    font-size: 1.5rem;
+}
+.food_radio:checked + label{
+    background-color: orange;
+}
+.food-amount{
+    width: 100%;
+}
+.food_radio{
+    display: none;
+    width: 100%;
+    justify-content: space-between;
+}
+.food_amount{
+    width: 100%;
+}
