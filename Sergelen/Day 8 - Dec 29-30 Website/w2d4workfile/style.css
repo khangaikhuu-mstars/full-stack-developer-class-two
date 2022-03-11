@@ -1,0 +1,35 @@
+
+body{
+    max-width: 1280px;
+    width:80%;
+    margin:0 auto
+}
+.Header{
+    display: flex;
+    flex-grow: 1;
+    height:10vh;
+    justify-content: center;
+}
+.Logo{
+    flex-grow: 2;
+}
+.Info{
+    color:black;
+    display: flex;
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+.CalltoAction{
+    flex-grow: 2;
+    color:#F58A07 ;
+    background: coral;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.Container1{
+    display: flex;
+    background:#DCEAF5;
+}

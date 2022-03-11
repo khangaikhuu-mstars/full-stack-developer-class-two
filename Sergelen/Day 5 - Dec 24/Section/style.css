@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+.All{
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: ;
+    
+}
+.All #S1{
+    background-color: aqua;
+}
+.All #S2{
+    background-color:blue;
+}
+.All #S3{
+    background-color:blueviolet;
+}
+
+section{
+    height: 100vh;
+
+}
+ h1{
+     margin: 0;
+     padding-top: 300px;
+     
+ }
+ img{
+     top: 100px;
+     left: 20px;
+     position:absolute;
+ }
+
+ li{
+     background-color: crimson;
+     display: inline-block;
+     height: 200px;
+     padding:10px;
+     color: white;
+
+ }
+ 

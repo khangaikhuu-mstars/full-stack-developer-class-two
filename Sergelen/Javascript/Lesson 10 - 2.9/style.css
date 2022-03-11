@@ -1,0 +1,17 @@
+#btn {
+  font-size: 50px;
+  height: 100px;
+  width: 200px;
+  background-color: aqua;
+  color: white;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.loginArea {
+  display: flex;
+  justify-content: center;
+  background-color: brown;
+  padding: 20px;
+}
