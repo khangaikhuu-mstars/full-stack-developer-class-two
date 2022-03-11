@@ -1,0 +1,12 @@
+/* Complete the challenge by writing CSS below */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 50vh;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.item{
+    flex: 1 calc(100% / 6- 10px)
+}

@@ -1,0 +1,128 @@
+/* Web Fonts ----------------------- */
+@font-face {
+  font-family: 'abolition regular';
+  src: url('../fonts/abolition-regular-webfont.woff') format('woff');
+}
+  
+  /* Base Styles --------------------- */
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 1.25em; /* 20px on most screens */
+  }
+  header{
+    background-color: rgb(202, 59, 3);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  header .title{
+    font-family: 'roboto';
+    letter-spacing: 1px;
+  }
+  body {
+    /* font declaration */
+    
+  }
+
+  main{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  span{
+    font-family: 'abolition regular';
+    font-size: 0.75rem;
+  }
+  h1{
+    font-family: 'abolition regular';
+    font-size: 5rem;
+    text-shadow: -10px 5px 0px blue,
+                 10px 10px 12px yellow;
+    }
+  h1::before {
+    display: block;
+  }
+  h1::after{
+    display: block;
+    content: '\21E9';
+    }
+  #wildlife{
+    max-width: 1200px;
+    border-radius: 5px 1000px 5px 1000px;
+    padding: 10% 15%;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 12px solid #f3753b;
+    background-color: #454959;
+    color: white;
+    box-shadow:inset 30px 40px 10px rgb(137, 169, 241)
+                     30px 40px 10px rgba(4, 5, 7, .3);
+    margin-bottom: 100px;
+    text-shadow: 5px 10px 3px royalblue;
+    text-decoration: none;
+  }
+  a{
+    color: white;
+  }
+  
+ .callout{
+    display: block;
+    padding: 1rem 1rem;
+    max-width: 200px; 
+    background-color: orange;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: inset 3px 3px 6px rgba(255, 255, 255, 0.3),
+                inset -3px -3px 6px rgba(8, 8, 8, .4);
+    text-decoration: none;
+    
+  }
+  .intro{
+    font-family: 'roboto';
+    font-weight: 200;
+    line-height: 2rem;
+    letter-spacing: 1.5px;
+  }
+  h2 {
+    /* font declaration */
+  font-family: 'Pushster';
+  }
+  .column{
+    max-width: 48%;
+    display: inline-block;
+    margin-right: -4px;
+    float: left;
+  }
+  .column:first-child{
+    margin-right: calc(4%-4px);
+    margin-bottom: 4rem;
+  }
+  .column img {
+    border-radius: 10px;
+  }
+  
+  .main-footer{
+    clear: both;
+  }
+  h3 {
+    font-family: 'roboto';
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 1.5px;
+
+  }
+  img {
+    width: 100%; /* responsive images */
+  }
+  
+  
+  /* Main Styles --------------------- */
+  
+  
+  /* Media Queries ------------------- */
+  
+  
