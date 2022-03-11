@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../Day@/work file"
+		},
+		{
+			"path": "../Semantic html"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Semantic html"
+	}
+}

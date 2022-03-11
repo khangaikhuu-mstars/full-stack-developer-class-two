@@ -1,0 +1,17 @@
+[
+    {
+        "name": "eenee",
+        "age": "30",
+        "job": "student"
+    },
+    {
+        "name": "bold",
+        "age": "40",
+        "job": "teacher"
+    },
+    {
+        "name": "bat",
+        "age": "50",
+        "job": "doctor"
+    }
+]

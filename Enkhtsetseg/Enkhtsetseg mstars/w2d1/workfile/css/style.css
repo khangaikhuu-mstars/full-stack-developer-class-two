@@ -1,0 +1,182 @@
+/* Web Fonts ----------------------- */
+@font-face {
+  font-family: 'Abolition Regular';
+  src: url('../fonts/abolition-regular-webfont.woff') format('woff');
+}
+
+  
+  /* Base Styles --------------------- */
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 1.25em; /* 20px on most screens */
+    
+  }
+  body {
+    /* font declaration */
+    margin: 0%
+    
+  }
+  h1, h2 {
+    /* font declaration */
+
+  }
+  main {
+    margin: 0%;
+    max-width: 100%;
+    
+  }
+  h1 {
+    font-size: 4rem;
+    font-family: 'Abolition Regular';
+    text-shadow:0px 0px 0 rgb(137,156,213),
+    1px 1px 0 rgb(129,148,205),
+    2px 2px 0 rgb(120,139,196),
+    3px 3px 0 rgb(111,130,187),
+    4px 4px 0 rgb(103,122,179),
+    5px 5px 0 rgb(94,113,170),
+    6px 6px 0 rgb(85,104,161),
+    7px 7px 0 rgb(76,95,152),
+    8px 8px 0 rgb(68,87,144),
+    9px 9px 0 rgb(59,78,135),
+    10px 10px 0 rgb(50,69,126),
+    11px 11px 0 rgb(42,61,118),
+    12px 12px 0 rgb(33,52,109),
+    13px 13px 0 rgb(24,43,100),
+    14px 14px 0 rgb(15,34,91),
+    15px 15px 0 rgb(7,26,83),
+    16px 16px 0 rgb(-2,17,74),
+    17px 17px 0 rgb(-11,8,65),
+    18px 18px 0 rgb(-19,0,57),
+    19px 19px 0 rgb(-28,-9,48), 
+    20px 20px 0 rgb(-37,-18,39),
+    21px 21px 20px rgba(0,0,0,1),
+    21px 21px 1px rgba(0,0,0,0.5),
+    0px 0px 20px rgba(0,0,0,.2); 
+}
+
+  h2 {
+    font-size: 2.5rem;
+    font-family: 'Licorice', cursive;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  img {
+    width: 100%; /* responsive images */
+  }
+
+  header {
+    background-color:#f3753f;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    margin: 0%;
+    background-image: url(../img/mountain-landscape.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+
+    
+  }
+
+  header .title {
+    font-family: "Roboto";
+    letter-spacing: 1px;
+  }
+
+ .intro {
+   font-family: 'Roboto Condensed', sans-serif;
+   font-weight: 300;
+   line-height: 2rem;
+   letter-spacing: 1px;
+ }
+ #wildlife {
+  /*max-width: 900px;*/
+   margin: 0 auto;
+   padding: 10% 15%;
+   border-top: 10px solid #d48013;
+   /*border-bottom: 5px solid rgb(5, 170, 5);*/
+   background-color: #3b3f3c;
+   color: white;
+   box-shadow: inset 0 30px 70px rgb(26, 29, 26);
+   text-align: center;
+   /*border-radius: 5px 500px 5px 500px;*/
+   margin-top: 100px;
+   margin-bottom: 100px;
+   background-image: url(../img/bear.jpg);
+   background-size: cover;
+   background-position: center;
+   background-blend-mode: multiply;
+ }
+ #wildlife a{
+   color: white;
+ }
+ .callout {
+   margin: 0 auto;
+   background: #f3753f;
+   display: block;
+   max-width: 200px;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   padding: 1rem 2rem;
+   border-radius: 20px;
+   box-shadow: -10px 20px 50px rgb(192, 117, 3);
+   color: white;
+   text-decoration: none;
+   background-image: linear-gradient(60deg, rgb(255, 115, 0) 40%, rgb(255, 30, 0));
+
+}
+
+.callout:hover {
+  
+  background: violet;
+  background-image: linear-gradient(60deg, violet 40% blue);
+}
+  
+h1::after {
+  display: block;
+  content: '\2193';
+}
+h1::before {
+  display: block;
+  content: '\0040';
+}
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  width: 45%;
+  margin-right: -4px;
+  float: left;
+  margin-left: 4%;
+
+
+}
+
+.column :last-child {
+  margin-right: calc(4%-4px);
+  margin-bottom: 4rem;
+}
+
+.main-footer {
+text-align: center;
+clear: both;
+}
+.column img {
+  width: 500px;
+  height: 300px;
+  border-radius: 10%;
+  text-align: center;
+}
+
+
+  /* Main Styles --------------------- */
+  
+  
+  /* Media Queries ------------------- */
+  
+  

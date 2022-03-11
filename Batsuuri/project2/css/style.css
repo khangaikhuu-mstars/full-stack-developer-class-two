@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+.navbar{
+    width: 100%;
+    background-color: white;
+    padding: 15px 0;
+}
+
+.navbar .navbar-logo{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.navbar .navbar-body{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .navbar-menu-lists .navbar-menu{
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.navbar .navbar-menu-lists .navbar-menu a{
+    text-decoration: none;
+    color: #1d3444;
+}
+.navbar .navbar-menu-lists .navbar-menu a:hover{
+    color: #F58A07;
+}
+.main-header{
+    background-color: #DCEAF5;
+    padding: 100px 0;
+}
+
+.main-header .header-content-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.main-header .header-content-body .header-text{
+    flex-grow: 0;
+    flex-basis: calc(100% / 2 - 30px);
+    width: calc(100% / 2 - 30px);
+}
+.main-header .header-content-body .header-text h2{
+    font-size: 4rem;
+    color: #1D3444;
+    margin: 0;
+}
+.main-header .header-content-body .header-text .header-content-btn{
+    margin-bottom: 2rem;
+}
+.main-header .header-content-body .header-text .header-content-btn .header-btn{
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #1D3444;
+    font-size: 1.125rem;
+    display: inline-block;
+}
+.main-header .header-content-body .header-text .header-content-btn .header-btn.active{
+    background: #F58A07;
+    color: white;
+    border-radius: 30px;
+}
+.header-image{
+    flex-grow: 1;
+    flex-basis: calc(100% / 2);
+    position: absolute;
+    right: 0;
+    bottom: -107px;
+}
+.container .h2-content-heading{
+    display: calc(100% / 2);
+    flex-grow: 0;
+    flex-basis: calc(100% / 2 - 30px);
+    width: calc(100% / 2 - 30px);
+    padding: 0;
+    color: #1D3444;
+    font-size: 2.5rem;
+}
+.container .h2-content-desk{
+    font-size: 1.125rem;
+    color: #1D3444;
+}
+.h3-menus{
+    font-size: 1.5rem;
+    color: #1D3444;
+}
+.h3-menus-desk{
+    color: #1D3444;
+}
+.container .h2-content-desk{
+    display: calc(100% / 2);
+    flex-grow: 0;
+    flex-basis: calc(100% / 2 - 30px);
+    width: calc(100% / 2 - 30px);
+}
+.h2-menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.image-border{
+    border-radius: 20px;
+}
+.learn-more{
+    color: #F58A07;
+    text-decoration: none;
+}
+.learn-more::after{
+    display: inline-block;
+    content: '\2192';
+}
+.container-1{
+    background-color: #DCEAF5;
+}
+.section-3{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.section-3-menu-list{
+    display: flex;
+}
+.section-3-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 30px;
+}
+.section-3-menus{
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 15px;
+    padding: 20px;
+}
+.section-3-menu-list :first-child{
+    margin-left: 0;
+}
+.section-3-menu-list :last-child{
+    margin-right: 0;
+}
+.section-3{
+    padding: 60px 0;
+}
+.energy{
+    display: flex;
+    padding: 50px 0;
+}
+.energy-col{
+    display: flex;
+}
+.energy-header h2{
+    font-size: 2.5rem;
+}
+.energy-row h2{
+    color: #F58A07;
+}
+.energy-image{
+    padding-left: 50px solid #F58A07;
+}
+.energy-image-1{
+    border-radius: 30px;
+}
+.Helping-heading{
+    width: 100%;
+    background-color: #DCEAF5;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+}
+.Helping-list .navbar-menu-list .navbar-menu{
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.Helping-list .navbar-menu-list .navbar-menu a{
+    text-decoration: none;
+    color: #1d3444;
+}
+.Helping-list .navbar-menu-list .navbar-menu a:hover{
+    color: #F58A07;
+}
+.Help-head{
+    display: flex;
+    width: 1280px;
+    margin: 0;
+    padding: 0;
+}
+.Help-text h2{
+    font-size: 3rem;
+    color: black;
+}
+.Help-text{
+    margin: 30px;
+}
+.Team-image{
+    margin: 30px;
+}
