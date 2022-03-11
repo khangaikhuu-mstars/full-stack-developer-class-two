@@ -1,0 +1,79 @@
+html {
+    font-size: 16px;
+    width: 70%;
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: black;
+    
+  }
+  
+  header {
+    font-size: 1em;
+    background-color: rgb(94, 94, 206);
+    margin: 0;
+  }
+  
+  .heading {
+    font-size: 2em;
+  }
+
+  section {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  h3 {
+    font-size: 1.25em;
+  }
+  h1.heading {
+    width: calc(100%-40px);
+    padding: 40px;
+    border-top: 15px solid rgba(126, 68, 201, 0.541);
+    border-right: 10px solid rgba(56, 12, 85, 0.404);
+    border-bottom: 15px solid rgba(126, 68, 201, 0.541);
+    border-left: 10px solid rgba(56, 12, 85, 0.404);
+    margin: 0;
+    background-color: rgb(137, 171, 209);
+    color: black;
+  }
+  address {
+    width: calc(100%-40px);
+    padding: 40px;
+    border-top: 10px solid black;
+    margin: 10px 0 10px 0;
+    background-color: rgb(194, 198, 204);
+    color: black;
+  }
+  #education {
+    background-color: cornsilk;
+    border: 3px solid rgba(51, 38, 15, 0.13);
+    display: inline;
+  }
+  #experience {
+    background-color: cornsilk;
+    border: 3px solid rgba(51, 38, 15, 0.13);
+    display: inline;
+  }
+  
+  #skills {
+    background-color: cornsilk;
+    border: 3px solid rgba(51, 38, 15, 0.13);
+    position: relative;
+  ;
+    
+  }
+
+  #awards {
+    background-color: cornsilk;
+    border: 3px solid rgba(51, 38, 15, 0.13);
+  }
+  footer {
+  color: aliceblue;
+  background-color: darkslateblue;
+  padding: 40px;
+
+  }
