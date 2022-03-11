@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar .navbar-body .navbar-body-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1D3444;
+}
+.navbar .navbar-body {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar .navbar-menu-lists .navbar-menu {
+    display: inline-block;
+    margin: 0 1rem;
+    
+}
+.navbar .navbar-menu-lists .navbar-menu a{
+    text-decoration: none;
+    color: #1D3444;
+    font-weight: bold;
+}
+.navbar .navbar-menu-lists .navbar-menu a:hover {
+    color: #F58A07;
+}
+.navbar .navbar-menu-lists .navbar-menu .cta {
+    border-radius: 30px;
+    background-color: rgb(250, 240, 221);
+    color: #F58A07;
+    padding: 10px 30px;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.main-header {
+    background-color: #dceaf5;
+    padding: 100px 0;
+    height: 545px;
+}
+.main-header .header-text{
+    display: inline-block;
+    padding-bottom: 50px;
+}
+.main-header .header-content-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.main-header .header-content-body .header-text .header-content-heading {
+    font-size: 3.6rem;
+}
+
+.main-header .header-content-body .header-text .header-content-btn {
+    margin-bottom: 2rem;
+}
+.main-header .header-content-body .header-text .header-content-btn .header-btn {
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #1d3444;
+    font-size: 1.125rem;
+    display: inline-block;
+}
+.main-header .header-content-body .header-text .header-content-btn .header-btn.active {
+    background-color: #F58A07;
+    border-radius: 30px;
+    color: white;
+}
+.main-header .header-content-body .header-text .header-content-logos .header-content-logo {
+    padding-right: 30px;
+}
+.main-section .section-content-body {
+    display: flex;
+    
+}
+.main-section .section-content-body .section-text .section-column-body {
+    display: flex;
+}
+.main-section .section-content-body .section-text .section-column-body .column-post {
+    border-radius: 30px;
+}
+.main-section .section-content-body .section-text .section-column-body .section-column a{
+    text-decoration: none;
+    color: #F58A07;
+}
+.main-section .section-content-body .section-text .section-content-heading {
+    display: inline-block;
+    width: 700px;
+    font-size: 3rem;
+}
+.main-section .section-content-body .section-text .section-content-desc {
+    display: inline-block;
+    width: 700px;
+
+}
+.main-section .section-content-body .section-text .section-column-body .section-column a::after{
+    
+}
+.box2-section {
+    background-color: #dceaf5;
+    padding: 100px 0;
+    height: 450px;
+}
+.box2-section .box2-content-text {
+    display: flex;
+}
+.box2-box3-content {
+    display: flex;
+}
+.box2-box3-content .box2-box3-column {
+    background-color: white;
+    margin-left: 30px;
+    padding: 30px;
+    border-radius: 30px;
+}

@@ -1,0 +1,54 @@
+body {
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+}
+main {
+    margin: 0 auto;
+}
+section {
+    display: inline-block;
+    
+}
+section img {
+    border-radius: 10px;
+   
+   
+  
+}
+.col-4 {
+    display: flex;
+    width: calc(100%/4 - 10px);
+    margin-left: 10px;
+    
+
+}
+.col-4:first-child {
+    margin-left: 0;
+}
+
+.col-3 {
+    display: flex;
+    
+}
+
+.col-3:first-child {
+    margin-left: 0;
+}
+.col-2 {
+    display: flex;
+}
+
+.col-2:first-child {
+    margin-left: 0;
+}
+

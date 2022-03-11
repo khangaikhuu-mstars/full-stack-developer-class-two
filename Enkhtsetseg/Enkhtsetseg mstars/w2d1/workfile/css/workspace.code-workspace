@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../w2s1challenge"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "workfile"
+	}
+}
