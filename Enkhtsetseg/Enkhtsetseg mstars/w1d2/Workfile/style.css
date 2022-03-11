@@ -1,0 +1,26 @@
+header {
+    background-color: rgb(109, 81, 211);
+    width: 80%;
+    font-size: 18px;
+    margin-left: 10%;
+}
+header h1{
+    margin-left: 30%;
+}
+
+
+section {
+    background-color: thistle;
+    width: 1000px;
+}
+aside{
+   
+}
+footer {
+    background-color: darkblue;
+    color: white;
+}
+.card {
+    color: red;
+}
+
