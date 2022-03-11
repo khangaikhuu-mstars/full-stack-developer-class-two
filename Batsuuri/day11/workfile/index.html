@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Food Delivery</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">НҮҮР</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ХООЛНЫ ЦЭС</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ХҮРГЭЛТИЙН БҮС</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Сагс</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Нэвтрэх</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images/post1.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/post-2.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/post-3.png" class="d-block" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="service">
+            <div class="row align-items-start">
+                <div class="col-12 col-xxl-4">
+                    <div>
+                        <img src="/images/Icon-wizard.png" alt="">
+                    </div>
+                    <div class="fast-head">
+                        <h2>Шуурхай хүргэлт</h2>
+                        <p>30 минутанд таны гарт.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-xxl-4">
+                    <div>
+                        <img src="/images/Icon-layer.png" alt="">
+                    </div>
+                    <div class="fast-head">
+                        <h2>Эрүүл, баталгаат орц</h2>
+                        <p>Хамгийн чанартайг танд.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-xxl-4">
+                    <div>
+                        <img src="/images/Icon-heart.png" alt="">
+                    </div>
+                    <div class="fast-head">
+                        <h2>Өргөн сонголт</h2>
+                        <p>Хамгийн онцгойг танд.</p>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="menu">
+            <div class="row align-items-start py-4">
+                <div class="col" >
+                  <h2 class="title-menu">Хямдралтай</h2>
+                </div>
+                <div class="col text-end">
+                    <button type="button" class="btn btn-primary rounded-pill">Бүгдийг харах</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row align-items-start gy-3">
+            <div class="col-12 col-lg-6 col-xxl-3">
+                <div class="card">
+                    <div class="card-hover"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <a href="#" class="card-hover-text">Сагслах</a>
+                    </div>
+                    <div class="card-body">
+                            <img src="/images/post1.png" class="card-img-top" alt="...">
+                            <h5 class="card-title">Зайрмаг</h5>
+                            <div class="Price">
+                                <p class="card-text">4,760₮</p>
+                                <p class="card-text">6,800₮</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xxl-3">
+                <div class="card">
+                    <div class="card-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <a href="#" class="card-hover-text">Сагслах</a>
+
+                    </div>
+                    <div class="card-body">
+                        <img src="/images/post-2.png" class="card-img-top" alt="...">
+                        <h5 class="card-title">Панкейк</h5>
+                        <div class="Price">
+                            <p class="card-text">4,760₮</p>
+                            <p class="card-text">6,800₮</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xxl-3">
+                <div class="card">
+                    <div class="card-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <a href="#" class="card-hover-text">Сагслах</a>
+
+                    </div>
+                    <div class="card-body">
+                        <img src="/images/post-3.png" class="card-img-top" alt="...">
+                        <h5 class="card-title">Өглөөний хоол</h5>
+                        <div class="Price">
+                            <p class="card-text">4,760₮</p>
+                            <p class="card-text">6,800₮</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xxl-3">
+                <div class="card">
+                    <div class="card-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <a href="#" class="card-hover-text">Сагслах</a>
+
+                    </div>
+                    <div class="card-body">
+                        <img src="/images/post1.png" class="card-img-top" alt="...">
+                        <h5 class="card-title">Банана, сендвич</h5>
+                        <div class="Price">
+                            <p class="card-text">4,760₮</p>
+                            <p class="card-text">6,800₮</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="menu">
+            <div class="row align-items-start py-4">
+                <div class="col" >
+                  <h2 class="title-menu">Хямдралтай</h2>
+                </div>
+                <div class="col text-end">
+                    <button type="button" class="btn btn-primary rounded-pill">Бүгдийг харах</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row align-items-start gy-3">
+            <div class="col-12 col-lg-6 col-xxl-3">
+                <div class="card">
+                    <div class="card-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <a href="#" class="card-hover-text">Сагслах</a>
+
+                    </div>
+                    <div class="card-body">
+                        <img src="/images/post1.png" class="card-img-top" alt="...">
+                        <h5 class="card-title">Зайрмаг</h5>
+                        <div class="Price">
+                            <p class="card-text">4,760₮</p>
+                            <p class="card-text">6,800₮</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xxl-3">
+                <div class="card">
+                    <div class="card-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <a href="#" class="card-hover-text">Сагслах</a>
+
+                    </div>
+                    <div class="card-body">
+                        <img src="/images/post-2.png" class="card-img-top" alt="...">
+                        <h5 class="card-title">Панкейк</h5>
+                        <div class="Price">
+                            <p class="card-text">4,760₮</p>
+                            <p class="card-text">6,800₮</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xxl-3">
+                <div class="card">
+                    <div class="card-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <a href="#" class="card-hover-text">Сагслах</a>
+
+                    </div>
+                    <div class="card-body">
+                        <img src="/images/post-3.png" class="card-img-top" alt="...">
+                        <h5 class="card-title">Өглөөний хоол</h5>
+                        <div class="Price">
+                            <p class="card-text">4,760₮</p>
+                            <p class="card-text">6,800₮</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xxl-3">
+                <div class="card">
+                    <div class="card-hover" data-bs-toggle="modal" data-bs-target="#example">
+                        <a href="#" class="card-hover-text">Сагслах</a>
+
+                    </div>
+                    <div class="card-body">
+                        <img src="/images/post1.png" class="card-img-top" alt="...">
+                        <h5 class="card-title">Банана, сендвич</h5>
+                        <div class="Price">
+                            <p class="card-text">4,760₮</p>
+                            <p class="card-text">6,800₮</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="menu">
+            <div class="row align-items-start py-4">
+                <div class="col" >
+                  <h2 class="title-menu">Хямдралтай</h2>
+                </div>
+                <div class="col text-end">
+                    <button type="button" class="btn btn-primary rounded-pill">Бүгдийг харах</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row align-items-start gy-3">
+            <div class="col-12 col-lg-6 col-xxl-3">
+                <div class="card">
+                    <div class="card-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <a href="#" class="card-hover-text">Сагслах</a>
+
+                    </div>
+                    <div class="card-body">
+                        <img src="/images/post1.png" class="card-img-top" alt="...">
+                        <h5 class="card-title">Зайрмаг</h5>
+                        <div class="Price">
+                            <p class="card-text">4,760₮</p>
+                            <p class="card-text">6,800₮</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xxl-3">
+                <div class="card">
+                    <div class="card-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <a href="#" class="card-hover-text">Сагслах</a>
+                    </div>
+                    <div class="card-body">
+                        <img src="/images/post-2.png" class="card-img-top" alt="...">
+                        <h5 class="card-title">Панкейк</h5>
+                        <div class="Price">
+                            <p class="card-text">4,760₮</p>
+                            <p class="card-text">6,800₮</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xxl-3">
+                <div class="card">
+                    <div class="card-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <a href="#" class="card-hover-text">Сагслах</a>
+
+                    </div>
+                    <div class="card-body">
+                        <img src="/images/post-3.png" class="card-img-top" alt="...">
+                        <h5 class="card-title">Өглөөний хоол</h5>
+                        <div class="Price">
+                            <p class="card-text">4,760₮</p>
+                            <p class="card-text">6,800₮</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xxl-3">
+                <div class="card">
+                    <div class="card-hover" data-bs-toggle="modal" data-bs-target="#example">
+                        <a href="#" class="card-hover-text">Сагслах</a>
+                    </div>
+                    <div class="card-body">
+                        <img src="/images/post1.png" class="card-img-top" alt="...">
+                        <h5 class="card-title">Банана, сендвич</h5>
+                        <div class="Price">
+                            <p class="card-text">4,760₮</p>
+                            <p class="card-text">6,800₮</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="menu">
+            <div class="row align-items-start py-4">
+                <div class="col" >
+                  <h2 class="title-menu">Хямдралтай</h2>
+                </div>
+                <div class="col text-end">
+                    <button type="button" class="btn btn-primary rounded-pill">Бүгдийг харах</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row align-items-start gy-3">
+            <div class="col-12 col-lg-6 col-xxl-3">
+                <div class="card">
+                    <div class="card-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <a href="#" class="card-hover-text">Сагслах</a>
+                    </div>
+                    <div class="card-body">
+                        <img src="/images/post1.png" class="card-img-top" alt="...">
+                        <h5 class="card-title">Зайрмаг</h5>
+                        <div class="Price">
+                            <p class="card-text">4,760₮</p>
+                            <p class="card-text">6,800₮</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xxl-3">
+                <div class="card">
+                    <div class="card-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <a href="#" class="card-hover-text">Сагслах</a>
+
+                    </div>
+                    <div class="card-body">
+                        <img src="/images/post-2.png" class="card-img-top" alt="...">
+                        <h5 class="card-title">Панкейк</h5>
+                        <div class="Price">
+                            <p class="card-text">4,760₮</p>
+                            <p class="card-text">6,800₮</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xxl-3">
+                <div class="card">
+                    <div class="card-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <a href="#" class="card-hover-text">Сагслах</a>
+                    </div>
+                    <div class="card-body">
+                        <img src="/images/post-3.png" class="card-img-top" alt="...">
+                        <h5 class="card-title">Өглөөний хоол</h5>
+                        <div class="Price">
+                            <p class="card-text">4,760₮</p>
+                            <p class="card-text">6,800₮</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xxl-3">
+                <div class="card">
+                    <div class="card-hover" data-bs-toggle="modal" data-bs-target="#example">
+                        <a href="#" class="card-hover-text">Сагслах</a>
+
+                    </div>
+                    <div class="card-body">
+                        <div class="card-banner">
+                            <img  src="/images/post1.png" class="card-img-top" alt="...">
+                            <div class="banner">20%</div>
+                        </div>
+                        <h5 class="card-title">Банана, сендвич</h5>
+                        <div class="Price">
+                            <p class="card-text">4,760₮</p>
+                            <p class="card-text">6,800₮</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="footer-heading">
+                    <div class="footer-heading-text">
+                        <h2>Food Delivery</h2>
+                    </div>
+                    <div>
+                        <ul class="footer-service">
+                            <li>
+                                <a href="#">Нүүр</a>
+                            </li>
+                            <li>
+                                <a href="#">Хоолны цэс</a>
+                            </li>
+                            <li>
+                                <a href="#">Хүргэлтийн бүс</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="footer-tel">
+                            <li>
+                                <a href="#">Холбоо барих</a>
+                            </li>
+                            <li>(976) 77123456</li>
+                            <li>(976) 77123456</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                      <div class="col-6">
+                          <img class="img-fluid" src="/images/header-image.png" alt="">
+                      </div>
+                      <div class="col-6">
+                          <div class="col-discription">
+                              <div class="modal-heading d-flex justify-content-between">
+                                <h3 class="food-title">Хулууны зутан</h3>
+                                <div class="food-price">6700₮</div>
+                              </div>
+                              <form action="" method="post">
+                                  <div>
+                                      <label class="d-block fw-bold mb-4 my-4" for="col-discription-text">Орц</label>
+                                      <textarea id="food-area" class="col-discription-input">Хулуу, төмсд, лууван,сонгино, цөцгийн тос, самрын үр</textarea>
+                                  </div>
+                                  <div class="my-4">
+                                      <label class="fw-bold mb-4" for="">Хэмжээ</label>
+                                        <div class="food_amount">
+                                            <input name="food-portion" id="food-portion_1" class="food_radio" type="radio" value="portion-1" checked> <label for="food-portion_1">1 хүн</label>
+                                            <input name="food-portion" id="food-portion_2" class="food_radio" type="radio" value="portion-2"> <label for="food-portion_2">2 хүн</label>
+                                        </div>
+                                  </div>
+                                  <div>
+                                      <label class="fw-bold mb-4">Тоо</label>
+                                      <div class="d-flex">
+                                          <button type="button" class="btn btn-primary">-</button>
+                                          <input type="text" class="food-amount mx-3" value="1">
+                                          <button type="button" class="btn btn-primary">+</button>
+                                      </div>
+                                  </div>
+
+
+                              </form>
+                              <button type="button" class="btn btn-secondary justify-content-center w-100 my-4" data-bs-dismiss="modal">Сагслах</button>
+                          </div>
+                      </div>
+
+                  </div>
+
+              </div>
+            </div>
+            <div class="modal-footer">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    
+</body>
+
+</html

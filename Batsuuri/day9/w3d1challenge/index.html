@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+      <form action="" method="post">
+        <fieldset>
+          <legend>Tell us about yourself.</legend>
+          <label for="id">name</label>
+          <input type="text" id="name" name="user_name" placeholder="Username">
+          <label for="email">e-mail</label>
+          <input type="email" id="email" name="user_email">
+          <label for="password">password</label>
+          <input type="password" id="password" name="user_password">
+          <label>Age</label>
+            <input type="radio" id="under_13" name="user_age" value="under_13"> <label for="under_13" class="light">under 13</label><br>
+            <input type="radio" id="over_13" name="user_age" value="over_13"> <label for="over_13" class="light">13 or older</label>
+          <label>Gender</label>
+            <input type="radio" id="Male" name="user_gender" value="Male"> <label for="Male" class="light">Male</label><br>
+            <input type="radio" id="Female" name="user_gender" value="Female"> <label for="Female" class="light">Female</label>
+        </fieldset>
+        <fieldset>
+            <Legend>Comment</Legend>
+          <label for="comment">comment</label>
+          <textarea id="comment" name="user_comment"></textarea>
+          <label for="job">Job role</label>
+          <select name="User_job" id="Job">
+            <optgroup label="Web">
+                <option value="1">Front-End Developer</option>
+                <option value="2">Web Designer</option>
+                <option value="3">PHP Developer</option>
+                <option value="4">Phyton Developer</option>
+            </optgroup>
+            <optgroup label="Mobile">
+                <option value="1">Android Developer</option>
+                <option value="2">Mobile app Designer</option>
+                <option value="3">IOS Developer</option>
+            </optgroup>
+            <optgroup label="Business">
+                <option value="1">Marketing</option>
+                <option value="2">Manager</option>
+            </optgroup>
+        </select>
+        <label>Interest</label>
+            <input type="checkbox" id="CEO" name="user_age" value="CEO"> <label for="CEO" class="light">CEO</label><br>
+            <input type="checkbox" id="Manager" name="user_age" value="Manager"> <label for="Manager" class="light">Manager</label><br>
+            <input type="checkbox" id="Journalist" name="user_age" value="Journalist"> <label for="Journalist" class="light">Journalist</label>
+          <button type="submit">Submit Comment</button>
+        </fieldset>
+      </form>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
