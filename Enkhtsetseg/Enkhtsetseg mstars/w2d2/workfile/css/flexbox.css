@@ -1,0 +1,43 @@
+/* ================================= 
+  Flexbox
+==================================== */
+.container {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  max-width: 100vh;
+  margin: 0 auto;
+  
+}
+
+.col {
+height: 100%;
+flex-grow: 1;
+flex-basis: calc(100% / 8);
+background: white;
+}
+
+.row {
+  display: flex;
+  height: calc(100% / 8);
+}
+
+.col:nth-child(odd){
+  background: black;
+}
+.row:nth-child(even) .col {
+  background: black;
+}
+
+.row:nth-child(even) .col:nth-child(odd) {
+  background: white;
+}
+
+
+
+
+
+
+
+
+

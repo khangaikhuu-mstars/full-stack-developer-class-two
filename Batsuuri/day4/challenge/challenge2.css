@@ -1,0 +1,24 @@
+html {
+    font-size: 16px;
+  }
+  h1.heading{
+    
+  }
+  header {
+    font-size: 1.5em;
+    background-color: coral;
+    border-radius: 20px;
+  }
+  
+  .heading {
+    font-size: 5rem;
+  }
+  section{
+    font-size: 1.5em;
+  }
+  h2{
+    font-size: 2em;
+  }
+  h3{
+    font-size: 1.25rem;
+  }

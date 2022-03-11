@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+      <form action="/about.html" method="post">
+          <fieldset>
+          <legend>Tell us about yourself</legend>
+            <label for="name">Username</label>
+            <input type="text" id="name" name="user_name">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="user_password">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="user_email">
+            <label for="comment">Comment</label>
+            <textarea name="user_comment" id="comment" cols="30" rows="10"></textarea>
+           
+          </fieldset>
+          <fieldset>
+            <select name="user_job" id="job">
+                <optgroup>
+                    <option value="1">IT</option>
+                    <option value="2">web designer</option>
+                    <option value="3">Back-end developer</option>
+        
+                </optgroup>
+                <optgroup>
+                    <option value="4">business</option>
+                    <option value="4">student</option>
+                </optgroup>
+            </select>
+            <input type="radio" id="female" name="gender"><label class="light">Female</label><br>
+            <input type="radio" id="male" name="gender"><label class="light">Male</label> 
+            <label>Skills</label>
+            <input type="checkbox" id="multiselect" name="select"><label class="light">Web designer</label>
+            <input type="checkbox" id="multiselect1" name="select"><label class="light">Front-end</label>
+            <input type="checkbox" id="multiselect2" name="select"><label class="light">Back-end</label>
+          </fieldset>
+
+          <button type="submit">Submit_comment</button>
+        
+      </form>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
