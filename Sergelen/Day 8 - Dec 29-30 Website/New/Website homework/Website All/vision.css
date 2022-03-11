@@ -1,0 +1,129 @@
+/* general*/
+.ulbarshar{
+    color: #f58a07 ;
+}
+.saaral{
+    color:#5b5b5b;
+}
+/* header area*/
+body{
+    font-family:'Poppins';
+    color:#1D3444;
+}
+.navbar a{
+    color: #1D3444;
+}
+.navbar-nav a:hover{
+    color: #f58a07 ;
+}
+.nav-item-orange a{
+    color: #f58a07;
+    background: rgba(245, 138, 7, .1);
+    border-radius: 20px;
+    padding: 10px 20px;
+ }
+.nav-item-orange a:hover{
+    color: white;
+    background: #f58a07;
+}
+#navbarNav{
+    justify-content: end;
+}
+/*section 1*/
+.banner img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;  
+    margin-bottom: 50px;  
+    border-radius: 30px;
+}
+.banner-text-area{
+    padding:0 25% 80px 25%;
+    
+}
+/*section 2*/
+.comment img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.comment{
+    display: flex;    
+}
+.comment p{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+/*section footer*/
+footer{
+    background-color: #063255;
+}
+.footer{
+    color: white;
+    display: flex;
+    padding: 50px 0 20px 0;
+}
+.footer1{
+    margin-right: 30px;
+}
+.footer1 .finsweet{
+    font-size: 1.25rem;
+}
+.footer1 .bespoke{
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+.footer1 .finsweet{
+    font-size: 1.25rem;
+}
+.footer2{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.footer2 a{
+    text-decoration: none;
+    color:white;
+}
+.company-menu a{
+    line-height: 30px;
+}
+.footer2 .company-menu{
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+}
+.company-contact a{
+    line-height: 30px;
+}
+.footer3{
+    margin-left: 50px;
+}
+.footer3 a{
+    text-decoration: none;
+    color:white;
+}
+.type-email input{
+    padding:10px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: white;
+    border:none;
+}
+.subscribe{
+    margin-bottom: 80px;
+}
+.subscribe a{
+    margin-top: 50px;
+    padding:10px 20px;
+    background-color: #f58a07;
+    color: white;
+    border-radius: 20px;
+}
+.orange-right{
+    background-color: #f58a07;
+    padding: 30px 0 30px 10;
+}
+.policy{
+   justify-content: end;
+}

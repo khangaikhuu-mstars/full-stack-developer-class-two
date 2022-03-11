@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculator</h1>
+      <div>
+        <p id="hariu" class="hariu"></p>
+      </div>
+      <div>
+        <div class="row">
+          <input class="col" type="button" value="C" id="button" />
+          <input class="col" type="button" value="()" id="button" />
+          <input class="col" type="button" value="%" id="button" />
+          <input class="col" type="button" value="/" id="button" />
+        </div>
+        <div class="row">
+          <button class="col" type="button" onclick="seven()" id="button7">
+            7
+          </button>
+          <button class="col" type="button" onclick="eight()" id="button">
+            8
+          </button>
+          <button class="col" type="button" onclick="nine()" id="button">
+            9
+          </button>
+          <button class="col" type="button" id="button" onclick="nemeh()">
+            +
+          </button>
+        </div>
+        <div class="row">
+          <input
+            class="col"
+            type="button"
+            value="4"
+            id="button"
+            onclick="form1.answer.value += '4'"
+          />
+          <input class="col" type="button" value="5" id="button" />
+          <input class="col" type="button" value="6" id="button" />
+          <input class="col" type="button" value="-" id="button" />
+        </div>
+        <div class="row">
+          <input class="col" type="button" value="1" id="button" />
+          <input class="col" type="button" value="2" id="button" />
+          <input class="col" type="button" value="3" id="button" />
+          <input class="col" type="button" value="+" id="button" />
+        </div>
+        <div class="row">
+          <input class="col" type="button" value="=/-" id="button" />
+          <input class="col" type="button" value="0" id="button" />
+          <input class="col" type="button" value="." id="button" />
+          <input
+            class="col"
+            type="button"
+            value="="
+            id="tentsuu"
+            onclick="tentsuu()"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script scr="function.js"></script>
+
+  <script>
+    function nine() {
+      var a = "9";
+      var b = seven("a") + a;
+      document.getElementById("hariu").innerHTML = b;
+
+      return b;
+      return a;
+    }
+    function seven() {
+      var a = "7";
+      document.getElementById("hariu").innerHTML = a;
+      return a;
+    }
+    function eight() {
+      var a = "8";
+      document.getElementById("hariu").innerHTML = nine("b") + a;
+    }
+    function nemeh() {
+      var b = parseInt(nine("a")) + parseInt(seven("a"));
+      return b;
+    }
+    function tentsuu() {
+      document.getElementById("hariu").innerHTML = nemeh("b");
+    }
+  </script>
+</html>

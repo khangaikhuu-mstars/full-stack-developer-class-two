@@ -1,0 +1,50 @@
+header{
+    background-color: turquoise;
+    width:75%;
+}
+
+
+
+img{
+    width: 50%;
+}
+
+#education{
+    background: #ccd5ae;
+    width: 75%;
+}
+
+#experience{
+    width: 75%;
+}
+
+
+#skills{
+    background:#e9edc9;
+    width: 75%;
+}
+
+#awards{
+    width: 75%;
+}
+
+h2{
+    text-align: center;
+}
+
+
+footer{
+    background-color: yellow;
+    width: 75%;
+    text-align: center;
+}
+
+address{
+    border-top: 10px solid:black;
+    margin: 20px 0;
+    padding:20px 40px;
+    width:100%; 
+    background: #lightgray;
+    color: #black;
+    box-sizing: border-box;
+}

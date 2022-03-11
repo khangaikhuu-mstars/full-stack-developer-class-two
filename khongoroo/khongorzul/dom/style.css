@@ -1,0 +1,15 @@
+#eform {
+  width: 150px;
+  background-color: azure;
+  margin: 30px;
+}
+.block {
+  border-radius: 100px;
+  display: flex;
+}
+.inblock {
+  margin: 20px;
+  background-color: beige;
+  border-radius: 10px;
+  padding: 20px;
+}
